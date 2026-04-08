@@ -3,13 +3,14 @@
 %% ========================================================================
 % Description: This script simulates an FDM transmission system and a 
 % high-selectivity receiver with Intermediate Frequency (IF) processing.
+% Authors : Basel Shrief Hemaid, Salah Waheed Salah
 
 clear; clc; close all;
 
 %% --- 1. CONFIGURATION & PARAMETERS ---
 RadioSystem.Fs_Target = 1e6;       % Global Sampling Rate (1 MHz)
 RadioSystem.Freq_IF   = 15000;     % Intermediate Freq (15 kHz)
-RadioSystem.Bandwidth = 10e3;     % Signal Bandwidth (10 kHz)
+RadioSystem.Bandwidth = 10e3;      % Signal Bandwidth (10 kHz)
 RadioSystem.Carrier1  = 100e3;     % Station A Center Freq
 RadioSystem.Carrier2  = 130e3;     % Station B Center Freq
 
